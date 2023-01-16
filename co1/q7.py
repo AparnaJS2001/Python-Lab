@@ -1,0 +1,15 @@
+l1=[1,2,3,4,5]
+l2=[3,4,5,6,7,8]
+print(l1)
+print(l2)
+i1=len(l1)
+i2=len(l2)
+print("Number of elements in l1 is",i1)
+print("Number of elements in l2 is",i2)
+s1=sum(l1)
+s2=sum(l2)
+print("Sum of elements in first list is",s2)
+t1=set(l1)
+t2=set(l2)
+t=t1.intersection(t2)
+print("Common elements in the lists are",t)
